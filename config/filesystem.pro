@@ -57,10 +57,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => $_SERVER['AWS_S3_KEY'],
-            'secret' => $_SERVER['AWS_S3_SECRET'],
-            'region' => $_SERVER['AWS_S3_REGION'],
-            'bucket' => $_SERVER['AWS_S3_BUCKET'],
+            'key' => $_SERVER['AWS_KEY'],
+            'secret' => $_SERVER['AWS_SECRET'],
+            'region' => $_SERVER['AWS_REGION'],
+            'bucket' => $_SERVER['AWS_BUCKET'],
         ],
         'uploads' => [
             'driver' => 'local',

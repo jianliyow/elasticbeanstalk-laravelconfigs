@@ -80,7 +80,7 @@ return [
 	|
 	*/
 
-	'username' => $_SERVER['MAIL_USER'],
+	'username' => $_SERVER['MAIL_USERNAME'],
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
 	|
 	*/
 
-	'password' => $_SERVER['MAIL_KEY'],
+	'password' => $_SERVER['MAIL_PASSWORD'],
 
 	/*
 	|--------------------------------------------------------------------------
